@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/product_card"
+    style="@style/Widget.MisCompras.Card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/screen_margin"
+    android:layout_marginVertical="@dimen/space_xs"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="18dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/product_avatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:background="@color/app_primary_container"
+            tools:text="L" />
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.MisCompras.ItemName"
+            app:layout_constraintEnd_toStartOf="@id/product_price"
+            app:layout_constraintStart_toEndOf="@id/product_avatar"
+            app:layout_constraintTop_toTopOf="@id/product_avatar"
+            tools:text="Leche" />
+
+        <TextView
+        android:id="@+id/product_price"
+        style="@style/Widget.MisCompras.Amount.Fit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textAppearance="@style/TextAppearance.MisCompras.Amount"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toStartOf="@id/product_favorite"
+            app:layout_constraintTop_toTopOf="@id/product_name"
+            tools:text="$990" />
+
+        <ImageButton
+            android:id="@+id/product_favorite"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/label_favorite"
+            android:src="@drawable/ic_star_border"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="?attr/colorPrimary" />
+
+        <TextView
+            android:id="@+id/product_detail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.MisCompras.Label"
+            app:layout_constraintEnd_toStartOf="@id/product_favorite"
+            app:layout_constraintStart_toEndOf="@id/product_avatar"
+            app:layout_constraintTop_toBottomOf="@id/product_name"
+            tools:text="Lácteos · 5 compras · promedio $950" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/product_stock_chip"
+            style="@style/Widget.MisCompras.Chip.Status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:checkable="false"
+            android:text="@string/label_restock"
+            android:visibility="gone"
+            app:ensureMinTouchTargetSize="false"
+            app:layout_constraintStart_toStartOf="@id/product_name"
+            app:layout_constraintTop_toBottomOf="@id/product_detail"
+            tools:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/stock_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="@id/product_stock_chip"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/product_detail">
+
+            <ImageButton
+                android:id="@+id/product_minus"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/action_remove"
+                android:src="@drawable/ic_minus"
+                app:tint="?attr/colorOnSurfaceVariant" />
+
+            <TextView
+                android:id="@+id/product_stock_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="2dp"
+                android:minWidth="42dp"
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.Material3.LabelLarge"
+                tools:text="2 und" />
+
+            <ImageButton
+                android:id="@+id/product_plus"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/action_add"
+                android:src="@drawable/ic_add"
+                app:tint="?attr/colorOnSurfaceVariant" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

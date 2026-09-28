@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="28dp">
+
+    <!-- Card de ilustración / Emoji de la sección -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/slide_card"
+        style="@style/Widget.MisCompras.Card"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        app:cardBackgroundColor="?attr/colorSurfaceContainer"
+        app:cardCornerRadius="40dp">
+
+        <TextView
+            android:id="@+id/slide_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="64sp"
+            tools:text="📋" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/slide_step"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:letterSpacing="0.08"
+        android:textAppearance="@style/TextAppearance.MisCompras.Label"
+        android:textColor="?attr/colorPrimary"
+        android:textStyle="bold"
+        tools:text="PASO 1 DE 3" />
+
+    <TextView
+        android:id="@+id/slide_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
+        android:textColor="?attr/colorOnSurface"
+        android:textStyle="bold"
+        tools:text="Planifica con listas y categorías" />
+
+    <TextView
+        android:id="@+id/slide_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        tools:text="Añade productos de un catálogo de más de 25 categorías de supermercado con cálculo automático de totales." />
+
+</LinearLayout>

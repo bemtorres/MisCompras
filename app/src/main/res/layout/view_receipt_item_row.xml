@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingVertical="8dp">
+
+    <!-- Emoji / Icono -->
+    <TextView
+        android:id="@+id/receipt_item_icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        tools:text="🍎" />
+
+    <!-- Nombre del producto y detalles -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/receipt_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="#0F172A"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="Manzanas Fuji" />
+
+        <TextView
+            android:id="@+id/receipt_item_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#64748B"
+            android:textSize="11sp"
+            android:visibility="gone"
+            tools:text="Descuento 15% aplicado"
+            tools:visibility="visible" />
+    </LinearLayout>
+
+    <!-- Cantidad -->
+    <TextView
+        android:id="@+id/receipt_item_qty"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#475569"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        tools:text="x 2" />
+
+    <!-- Precio Unitario -->
+    <TextView
+        android:id="@+id/receipt_item_unit_price"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textColor="#64748B"
+        android:textSize="12sp"
+        tools:text="$1.200" />
+
+    <!-- Subtotal -->
+    <TextView
+        android:id="@+id/receipt_item_total"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textColor="#0F172A"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        tools:text="$2.400" />
+
+    <!-- Estado badge micro -->
+    <TextView
+        android:id="@+id/receipt_item_status"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:textColor="#059669"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        tools:text="✓" />
+
+</LinearLayout>

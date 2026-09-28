@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/purchase_card"
+    style="@style/Widget.MisCompras.Card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/screen_margin"
+    android:layout_marginVertical="@dimen/space_xs"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="18dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/purchase_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.MisCompras.ItemName"
+            app:layout_constraintEnd_toStartOf="@id/purchase_total"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Supermercado" />
+
+        <TextView
+        android:id="@+id/purchase_total"
+        style="@style/Widget.MisCompras.Amount.Fit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+            android:textAppearance="@style/TextAppearance.MisCompras.Amount"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="$22.400" />
+
+        <TextView
+            android:id="@+id/purchase_meta"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textAppearance="@style/TextAppearance.MisCompras.Label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/purchase_name"
+            tools:text="12 mar · 9 productos · 1 faltante" />
+
+        <TextView
+            android:id="@+id/purchase_delta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/purchase_meta"
+            tools:text="−$2.500" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/purchase_chip"
+            style="@style/Widget.MisCompras.Chip.Status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="false"
+            app:ensureMinTouchTargetSize="false"
+            app:layout_constraintBottom_toBottomOf="@id/purchase_delta"
+            app:layout_constraintStart_toEndOf="@id/purchase_delta"
+            app:layout_constraintTop_toTopOf="@id/purchase_delta"
+            tools:text="Completada" />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/purchase_progress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:trackCornerRadius="3dp"
+            app:trackThickness="6dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/purchase_delta"
+            tools:progress="80" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

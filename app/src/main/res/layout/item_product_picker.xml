@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pick_card"
+    style="@style/Widget.MisCompras.Card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/screen_margin"
+    android:layout_marginVertical="@dimen/space_xs"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="18dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/pick_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="0dp"
+            app:layout_constraintBottom_toBottomOf="@id/pick_avatar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/pick_avatar" />
+
+        <TextView
+            android:id="@+id/pick_avatar"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="4dp"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/pick_checkbox"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:background="@color/app_primary_container"
+            tools:text="L" />
+
+        <TextView
+            android:id="@+id/pick_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.MisCompras.ItemName"
+            app:layout_constraintEnd_toStartOf="@id/pick_stepper"
+            app:layout_constraintStart_toEndOf="@id/pick_avatar"
+            app:layout_constraintTop_toTopOf="@id/pick_avatar"
+            tools:text="Leche" />
+
+        <TextView
+            android:id="@+id/pick_detail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.MisCompras.Label"
+            app:layout_constraintEnd_toStartOf="@id/pick_stepper"
+            app:layout_constraintStart_toEndOf="@id/pick_avatar"
+            app:layout_constraintTop_toBottomOf="@id/pick_name"
+            tools:text="Lácteos" />
+
+        <LinearLayout
+            android:id="@+id/pick_stepper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="visible">
+
+            <ImageButton
+                android:id="@+id/pick_minus"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/action_remove"
+                android:src="@drawable/ic_minus"
+                app:tint="?attr/colorPrimary" />
+
+            <TextView
+                android:id="@+id/pick_quantity_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/space_xs"
+                android:gravity="center"
+                android:minWidth="26dp"
+                android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+                tools:text="2" />
+
+            <ImageButton
+                android:id="@+id/pick_plus"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/action_add"
+                android:src="@drawable/ic_add"
+                app:tint="?attr/colorPrimary" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

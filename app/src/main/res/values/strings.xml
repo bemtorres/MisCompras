@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mis Compras</string>
+
+    <!-- Navegación -->
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_lista">Lista</string>
+    <string name="nav_productos">Productos</string>
+    <string name="nav_historial">Historial</string>
+    <string name="nav_stats">Estadísticas</string>
+
+    <!-- Acciones -->
+    <string name="action_new_list">Nueva lista</string>
+    <string name="action_create_list">Crear lista</string>
+    <string name="action_create_and_add">Crear y agregar productos</string>
+    <string name="action_new_category">Nueva</string>
+    <string name="action_continue_shop">Continuar compra</string>
+    <string name="action_shop_mode">Ir al supermercado</string>
+    <string name="action_finish">Finalizar compra</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_add">Agregar</string>
+    <string name="action_add_count">Agregar %1$d</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_remove">Quitar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_back">Volver</string>
+    <string name="action_close">Cerrar</string>
+    <string name="action_confirm">Confirmar</string>
+    <string name="action_not_found">No encontré</string>
+    <string name="action_open_list">Abrir lista</string>
+    <string name="action_view_list">Ver la lista completa</string>
+    <string name="action_see_all">Ver todo</string>
+    <string name="action_recent_purchase">Ver última compra</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_use_estimate">Usar estimado</string>
+    <string name="action_discard">Descartar</string>
+    <string name="action_move_up">Subir</string>
+    <string name="action_move_down">Bajar</string>
+    <string name="action_substitute">Sustituto</string>
+    <string name="action_view_history">Ver historial</string>
+    <string name="action_change_date">Cambiar fecha</string>
+    <string name="action_buy_next">Comprar y siguiente</string>
+    <string name="action_view_purchase">Ver compra</string>
+    <string name="action_price_later">Poner precio después</string>
+
+    <!-- Filtros -->
+    <string name="filter_all">Todas</string>
+    <string name="filter_active">Activas</string>
+    <string name="filter_completed">Completadas</string>
+
+    <!-- Etiquetas -->
+    <string name="label_estimated">Estimado</string>
+    <string name="label_real">Real</string>
+    <string name="label_savings">Ahorraste</string>
+    <string name="label_more_paid">Pagaste de más</string>
+    <string name="label_not_registered">Sin datos</string>
+    <string name="label_difference">Diferencia</string>
+    <string name="label_total_estimated">Total estimado</string>
+    <string name="label_total_real">Total real</string>
+    <string name="label_discounts">Descuentos</string>
+    <string name="label_products">Productos</string>
+    <string name="label_quantity">Cantidad</string>
+    <string name="label_price">Precio</string>
+    <string name="label_stock">Stock</string>
+    <string name="stock_empty">Sin stock</string>
+    <string name="stock_low">Quedan %1$s</string>
+    <string name="label_category">Categoría</string>
+    <string name="label_unit">Unidad</string>
+    <string name="label_status">Estado</string>
+    <string name="label_date">Fecha</string>
+    <string name="label_name">Nombre</string>
+    <string name="label_frequency">Periodicidad</string>
+    <string name="label_spend_month">Gasto del mes</string>
+    <string name="label_average_ticket">Ticket promedio</string>
+    <string name="label_unit_price">Precio unitario</string>
+    <string name="label_final_price">Precio final</string>
+    <string name="label_usual_quantity">Cantidad habitual</string>
+    <string name="label_min_stock">Stock mínimo</string>
+    <string name="label_average">Promedio</string>
+    <string name="label_min">Mínimo</string>
+    <string name="label_max">Máximo</string>
+    <string name="label_last">Último</string>
+    <string name="label_favorite">Favorito</string>
+    <string name="label_active">Activo</string>
+    <string name="label_reason">Motivo</string>
+    <string name="label_subtotal">Subtotal</string>
+    <string name="label_total">Total</string>
+    <string name="label_purchases">Compras</string>
+    <string name="label_week">Semana</string>
+    <string name="label_top_products">Más comprados</string>
+    <string name="label_by_category">Gasto por categoría</string>
+    <string name="label_not_found_products">Suelen faltar</string>
+    <string name="label_comparison">Comparación</string>
+    <string name="label_discount_type">Tipo de descuento</string>
+    <string name="discount_none">Ninguno</string>
+    <string name="discount_percent">Porcentaje</string>
+    <string name="discount_amount">Monto fijo</string>
+    <string name="label_discount_value">Descuento</string>
+    <string name="label_search_products">Buscar productos</string>
+    <string name="label_suggestions">Sugeridos</string>
+    <string name="label_suggestions_hint">Marca los productos que siempre compras y agrégalos a la lista de una.</string>
+    <string name="label_restock">Reponer stock</string>
+    <string name="label_all_products">Todos los productos</string>
+    <string name="label_estimate_hint">Precio estimado que usarás para calcular el total</string>
+    <string name="label_progress_shopping">Progreso de la compra</string>
+    <string name="label_estimate">Estimado</string>
+    <string name="label_real_price">Precio real</string>
+    <string name="label_mark_purchased">Comprado</string>
+    <string name="label_new_product">Producto nuevo</string>
+
+    <!-- Encabezados -->
+    <string name="greeting">Panel de compras</string>
+    <string name="title_recent">Últimas compras</string>
+    <string name="title_lists">Mis listas</string>
+    <string name="title_new_list">Nueva lista de compra</string>
+    <string name="title_add_products">Agregar productos</string>
+    <string name="title_products">Productos</string>
+    <string name="title_new_product">Nuevo producto</string>
+    <string name="title_edit_product">Editar producto</string>
+    <string name="title_price_history">Historial de precios</string>
+    <string name="title_history">Historial</string>
+    <string name="title_stats">Estadísticas</string>
+    <string name="mode_shopping">Modo compra</string>
+
+    <!-- Estados -->
+    <string name="status_planned">Planificada</string>
+    <string name="status_in_progress">En curso</string>
+    <string name="status_completed">Completada</string>
+    <string name="status_cancelled">Cancelada</string>
+    <string name="status_purchased">Comprado</string>
+    <string name="status_not_found">No encontrado</string>
+    <string name="status_pending">Pendiente</string>
+
+    <!-- Tipos de compra -->
+    <string name="type_weekly">Semanal</string>
+    <string name="type_biweekly">Quincenal</string>
+    <string name="type_monthly">Mensual</string>
+    <string name="type_other">Otra</string>
+
+    <!-- Formatos -->
+    <string name="meta_list">%1$s · %2$s</string>
+    <string name="meta_progress">%1$d de %2$d</string>
+    <string name="meta_products">%1$d productos</string>
+    <string name="meta_products_total">%1$d productos</string>
+    <string name="meta_month">%1$s</string>
+    <string name="meta_bottom_total">Estimado %1$s</string>
+    <string name="meta_selected">%1$d seleccionados</string>
+    <string name="meta_last_price">último %1$s</string>
+    <string name="meta_selection_total">Total %1$s</string>
+    <string name="stats_no_change">Igual que el mes anterior</string>
+    <string name="stats_month_delta">%1$s (%2$s) vs. mes anterior</string>
+    <string name="stats_empty">Sin datos todavía</string>
+    <string name="stats_no_not_found">No te han faltado productos</string>
+    <string name="label_weekly_chart">Gasto por semana</string>
+    <string name="meta_top_product">%1$s · %2$s</string>
+    <string name="meta_not_found_times">Faltó %1$d veces</string>
+    <string name="meta_average_price">promedio %1$s</string>
+    <string name="meta_quantity_price">%1$s × %2$s</string>
+    <string name="meta_subtotal">%1$s c/u</string>
+    <string name="meta_suggested_qty">Sugerido: %1$s</string>
+    <string name="meta_stock_value">Stock %1$s %2$s</string>
+    <string name="meta_purchases_times">%1$d compras</string>
+    <string name="meta_purchase_meta">%1$s · %2$d productos · %3$d faltantes</string>
+    <string name="meta_estimated_total">Estimado %1$s</string>
+
+    <!-- Estado vacío -->
+    <string name="empty_active_title">No tienes una compra en curso</string>
+    <string name="empty_active_body">Crea una lista con los productos que necesitas y la app calculará el total por ti.</string>
+    <string name="empty_lists_title">Aún no hay listas</string>
+    <string name="empty_lists_body">Crea tu primera lista de compra para empezar a planificar.</string>
+    <string name="empty_products_title">Sin productos</string>
+    <string name="empty_products_body">Crea tu catálogo de productos para reutilizarlo en todas tus listas.</string>
+    <string name="empty_history_title">Sin compras registradas</string>
+    <string name="empty_history_body">Cuando finalices una compra aparecerá aquí con todos sus detalles.</string>
+    <string name="empty_stats_title">Aún no hay historial</string>
+    <string name="empty_stats_body">Finaliza tu primera compra para ver estadísticas de gasto y hábitos.</string>
+    <string name="empty_add_products_body">Agrega los productos que necesitas y la app calculará el total por ti.</string>
+
+    <!-- Mensajes -->
+    <string name="msg_item_added">Producto agregado</string>
+    <string name="msg_item_removed">Producto eliminado</string>
+    <string name="msg_list_created">Lista creada</string>
+    <string name="msg_list_deleted">Lista eliminada</string>
+    <string name="msg_purchase_finished">¡Compra finalizada!</string>
+    <string name="msg_list_cancelled">Compra cancelada</string>
+    <string name="msg_product_saved">Producto guardado</string>
+    <string name="msg_category_created">Categoría creada</string>
+    <string name="msg_product_deleted">Producto eliminado</string>
+    <string name="msg_cannot_delete_in_use">No se puede eliminar: el producto ya se usó en una compra</string>
+    <string name="msg_empty_list">Agrega al menos un producto a la lista</string>
+    <string name="msg_name_required">Escribe un nombre</string>
+    <string name="msg_price_invalid">El precio no puede ser negativo</string>
+    <string name="msg_discount_invalid">El descuento no puede superar el 100%%</string>
+    <string name="msg_discount_too_big">El descuento no puede superar el precio</string>
+    <string name="msg_confirm_delete_list">¿Eliminar esta lista? Se borrarán sus productos.</string>
+    <string name="msg_confirm_delete_item">¿Quitar %1$s de la lista?</string>
+    <string name="msg_confirm_delete_product">¿Eliminar %1$s del catálogo?</string>
+    <string name="msg_confirm_finish">¿Finalizar esta compra? Se guardará en el historial.</string>
+    <string name="msg_confirm_cancel_list">¿Cancelar esta compra? Pasará a estado cancelada.</string>
+    <string name="msg_list_updated">Lista actualizada</string>
+    <string name="msg_quantity_invalid">Ingresa una cantidad mayor a cero</string>
+    <string name="msg_item_saved">Producto actualizado</string>
+    <string name="msg_item_quantity_invalid">La cantidad debe ser mayor a cero</string>
+
+    <!-- Resumen de compra -->
+    <string name="summary_title">Resumen de compra</string>
+    <string name="summary_question">¿Finalizar la compra?</string>
+    <string name="summary_estimated">Total estimado</string>
+    <string name="summary_real">Total real</string>
+    <string name="summary_discount">Descuentos</string>
+    <string name="summary_difference">Diferencia</string>
+    <string name="summary_items">%1$d productos comprados de %2$d</string>
+    <string name="summary_pending">Quedan %1$d productos sin registrar</string>
+    <string name="summary_not_found">%1$d no encontrados</string>
+
+    <!-- Modo supermercado -->
+    <string name="shopping_progress">%1$d de %2$d</string>
+    <string name="shopping_total_real">Total registrado</string>
+    <string name="shopping_all_done">¡Terminaste todos los productos!</string>
+    <string name="shopping_all_done_body">Revisa el resumen antes de finalizar la compra.</string>
+    <string name="shopping_use_estimate">Estimado %1$s</string>
+    <string name="shopping_next">Siguiente producto</string>
+    <string name="shopping_finish">Finalizar compra</string>
+    <string name="shopping_reason_title">¿Por qué no lo encontraste?</string>
+
+    <!-- Diálogos -->
+    <string name="dialog_delete">Eliminar</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_delete_list_title">Eliminar lista</string>
+    <string name="dialog_delete_item_title">Quitar producto</string>
+    <string name="dialog_finish_title">Finalizar compra</string>
+    <string name="dialog_cancel_list_title">Cancelar compra</string>
+    <string name="dialog_rename_list">Editar lista</string>
+    <string name="dialog_edit_quantity">Ajustar producto</string>
+    <string name="dialog_add_quantity">Agregar a la lista</string>
+    <string name="dialog_substitute_title">Producto sustituto</string>
+    <string name="dialog_substitute_body">Indica el nombre del producto que compraste en su lugar.</string>
+    <string name="dialog_delete_product_title">Eliminar producto</string>
+    <string name="dialog_add_category">Nueva categoría</string>
+    <string name="dialog_add_category_body">Escribe el nombre de la nueva categoría.</string>
+
+    <!-- Onboarding y Configuración Inicial -->
+    <string name="welcome_title">Planifica tus compras con facilidad</string>
+    <string name="welcome_subtitle">Organiza tus listas, controla tu presupuesto y ahorra en el supermercado de manera inteligente.</string>
+    <string name="welcome_cta_start">Comenzar ahora</string>
+    <string name="welcome_cta_next">Siguiente</string>
+    <string name="welcome_cta_finish">Entrar a la app</string>
+    <string name="welcome_cta_skip">Omitir</string>
+    <string name="onboarding_slide1_title">Planifica con listas y categorías</string>
+    <string name="onboarding_slide1_desc">Añade productos de un catálogo de más de 25 categorías de supermercado con cálculo automático de totales.</string>
+    <string name="onboarding_slide2_title">Modo Supermercado en vivo</string>
+    <string name="onboarding_slide2_desc">Registra precios reales al momento de comprar, aplica descuentos y gestiona productos que no encontraste.</string>
+    <string name="onboarding_slide3_title">Historial y estadísticas de ahorro</string>
+    <string name="onboarding_slide3_desc">Revisa tus compras históricas, compara variaciones de precios y analiza cuánto gastas cada semana.</string>
+    <string name="config_setup_title">Configuración inicial</string>
+    <string name="config_setup_desc">Selecciona tu idioma preferido y el tipo de moneda con el que calcularás tus compras.</string>
+    <string name="config_language_label">Idioma de la aplicación</string>
+    <string name="config_currency_label">Tipo de moneda y símbolo</string>
+    <string name="config_theme_label">Color de la aplicación</string>
+    <string name="config_saved_success">¡Configuración aplicada correctamente!</string>
+    <string name="settings_title">Ajustes y Configuración</string>
+    <string name="settings_subtitle">Personaliza tu idioma, divisa y estilo de la app</string>
+
+    <!-- Compartir comprobante -->
+    <string name="action_share_receipt">Compartir comprobante</string>
+    <string name="share_receipt_title">Compartir comprobante de compra</string>
+    <string name="share_receipt_wsp">WhatsApp</string>
+    <string name="share_receipt_other">Otras aplicaciones…</string>
+    <string name="share_receipt_dialog_title">¿Cómo deseas compartir?</string>
+    <string name="share_receipt_dialog_desc">Comparte la imagen del comprobante con el desglose total de tu compra.</string>
+    <string name="share_receipt_preparing">Generando imagen del comprobante…</string>
+    <string name="share_receipt_error">No se pudo generar la imagen para compartir</string>
+    <string name="receipt_header_title">Mis Compras</string>
+    <string name="receipt_header_subtitle">Comprobante de Compra</string>
+    <string name="receipt_ticket_hash">COMPROBANTE DIGITAL #%1$d</string>
+    <string name="receipt_footer_caption">Generado con Mis Compras · Tu asistente de compras inteligente</string>
+    <string name="receipt_col_product">PRODUCTO</string>
+    <string name="receipt_col_qty">CANT.</string>
+    <string name="receipt_col_price">PRECIO</string>
+    <string name="receipt_col_total">TOTAL</string>
+</resources>

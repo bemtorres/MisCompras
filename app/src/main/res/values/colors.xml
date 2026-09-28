@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <!-- Marca: verde mercado fresco -->
+    <color name="brand_green">#0E6B45</color>
+    <color name="brand_green_dark">#5BD69B</color>
+
+    <!-- Primarios (claro) -->
+    <color name="md_primary">#0E6B45</color>
+    <color name="md_on_primary">#FFFFFF</color>
+    <color name="md_primary_container">#A6F2C5</color>
+    <color name="md_on_primary_container">#002110</color>
+
+    <color name="md_secondary">#4D6357</color>
+    <color name="md_on_secondary">#FFFFFF</color>
+    <color name="md_secondary_container">#CFE9D8</color>
+    <color name="md_on_secondary_container">#092015</color>
+
+    <color name="md_tertiary">#3B6373</color>
+    <color name="md_on_tertiary">#FFFFFF</color>
+    <color name="md_tertiary_container">#BFE9FA</color>
+    <color name="md_on_tertiary_container">#001F29</color>
+
+    <color name="md_error">#BA1A1A</color>
+    <color name="md_on_error">#FFFFFF</color>
+    <color name="md_error_container">#FFDAD6</color>
+    <color name="md_on_error_container">#410002</color>
+
+    <color name="md_background">#F7FBF5</color>
+    <color name="md_on_background">#171D19</color>
+    <color name="md_surface">#F7FBF5</color>
+    <color name="md_on_surface">#171D19</color>
+    <color name="md_surface_variant">#DCE5DC</color>
+    <color name="md_on_surface_variant">#404943</color>
+    <color name="md_surface_container_lowest">#FFFFFF</color>
+    <color name="md_surface_container_low">#F1F5EF</color>
+    <color name="md_surface_container">#EBF0E9</color>
+    <color name="md_surface_container_high">#E5EAE3</color>
+    <color name="md_outline">#707972</color>
+    <color name="md_outline_variant">#C0C9C0</color>
+    <color name="md_inverse_surface">#2C322D</color>
+    <color name="md_inverse_on_surface">#EDF2EB</color>
+
+    <!-- Semánticos de la app -->
+    <color name="app_success">#0F7A34</color>
+    <color name="app_success_container">#BFF0CB</color>
+    <color name="app_on_success_container">#00210C</color>
+    <color name="app_warning">#8A5000</color>
+    <color name="app_warning_container">#FFDDB6</color>
+    <color name="app_on_warning_container">#2B1700</color>
+    <color name="app_danger">#B3261E</color>
+    <color name="app_danger_container">#FFDAD6</color>
+    <color name="app_on_danger_container">#410002</color>
+
+    <color name="app_estimate">#3B6373</color>
+    <color name="app_estimate_container">#D6ECFA</color>
+    <color name="app_primary">#0E6B45</color>
+    <color name="app_primary_container">#A6F2C5</color>
+    <color name="app_on_primary_container">#002110</color>
+    <color name="app_on_surface_variant">#404943</color>
+    <color name="app_surface_container_low">#F1F5EF</color>
+
+    <!-- Tema Azul Océano -->
+    <color name="theme_blue_primary">#1565C0</color>
+    <color name="theme_blue_container">#D1E4FF</color>
+    <color name="theme_blue_on_container">#001D36</color>
+
+    <!-- Tema Violeta / Púrpura -->
+    <color name="theme_purple_primary">#6A1B9A</color>
+    <color name="theme_purple_container">#F3DAFF</color>
+    <color name="theme_purple_on_container">#2B0053</color>
+
+    <!-- Tema Naranja Atardecer -->
+    <color name="theme_orange_primary">#E65100</color>
+    <color name="theme_orange_container">#FFDCC1</color>
+    <color name="theme_orange_on_container">#321300</color>
+
+    <!-- Tema Rojo / Rosa -->
+    <color name="theme_red_primary">#C2185B</color>
+    <color name="theme_red_container">#FFD9E2</color>
+    <color name="theme_red_on_container">#3E001D</color>
+</resources>

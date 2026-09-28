@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="md_primary">#6DDB9F</color>
+    <color name="md_on_primary">#003920</color>
+    <color name="md_primary_container">#00522F</color>
+    <color name="md_on_primary_container">#A6F2C5</color>
+
+    <color name="md_secondary">#B3CCBC</color>
+    <color name="md_on_secondary">#1F3528</color>
+    <color name="md_secondary_container">#354B3E</color>
+    <color name="md_on_secondary_container">#CFE9D8</color>
+
+    <color name="md_tertiary">#A3CCDF</color>
+    <color name="md_on_tertiary">#063544</color>
+    <color name="md_tertiary_container">#224C5C</color>
+    <color name="md_on_tertiary_container">#BFE9FA</color>
+
+    <color name="md_error">#FFB4AB</color>
+    <color name="md_on_error">#690005</color>
+    <color name="md_error_container">#93000A</color>
+    <color name="md_on_error_container">#FFDAD6</color>
+
+    <color name="md_background">#0F1511</color>
+    <color name="md_on_background">#DFE4DE</color>
+    <color name="md_surface">#0F1511</color>
+    <color name="md_on_surface">#DFE4DE</color>
+    <color name="md_surface_variant">#404943</color>
+    <color name="md_on_surface_variant">#C0C9C0</color>
+    <color name="md_surface_container_lowest">#0A100C</color>
+    <color name="md_surface_container_low">#171D19</color>
+    <color name="md_surface_container">#1B211D</color>
+    <color name="md_surface_container_high">#262B27</color>
+    <color name="md_outline">#8A938B</color>
+    <color name="md_outline_variant">#404943</color>
+    <color name="md_inverse_surface">#DFE4DE</color>
+    <color name="md_inverse_on_surface">#2C322D</color>
+
+    <color name="app_success">#7DDA98</color>
+    <color name="app_success_container">#00531F</color>
+    <color name="app_on_success_container">#BFF0CB</color>
+    <color name="app_warning">#FFB868</color>
+    <color name="app_warning_container">#5C3900</color>
+    <color name="app_on_warning_container">#FFDDB6</color>
+    <color name="app_danger">#FFB4AB</color>
+    <color name="app_danger_container">#8C1D18</color>
+    <color name="app_on_danger_container">#FFDAD6</color>
+
+    <color name="app_estimate">#A3CCDF</color>
+    <color name="app_estimate_container">#224C5C</color>
+    <color name="app_primary">#6DDB9F</color>
+    <color name="app_primary_container">#00522F</color>
+    <color name="app_on_primary_container">#A6F2C5</color>
+    <color name="app_on_surface_variant">#C0C9C0</color>
+    <color name="app_surface_container_low">#171D19</color>
+</resources>
